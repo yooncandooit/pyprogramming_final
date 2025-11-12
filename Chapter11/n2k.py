@@ -11,6 +11,8 @@ example: n2k 10,003,103 10,003,104
 import sys, argparse
 import n2k # n2k 모듈을 임포트 (main이 아닌 경우)
 
+n2k.num2korean("12345")  # 만이천삼백사십오
+
 # 기본 숫자 딕셔너리
 _digit_dict = {
     "0": "",
