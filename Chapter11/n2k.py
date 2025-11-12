@@ -9,6 +9,7 @@ example: n2k 10,003,103 10,003,104
            for 10,003,103, 10,003,104 say: 천만삼천백삼, 천만삼천백사
 """
 import sys, argparse
+import n2k # n2k 모듈을 임포트 (main이 아닌 경우)
 
 # 기본 숫자 딕셔너리
 _digit_dict = {
